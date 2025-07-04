@@ -1,0 +1,10 @@
+numbers = [10, 25, 3, 89, 47, 89]
+unique_numbers = list(set(numbers))
+unique_numbers.sort()
+if len(unique_numbers) >= 2:
+    print("Second largest number is:", unique_numbers[-2])
+else:
+    print("Second largest number not found.")
+
+#OUTPUT
+Second largest number is: 47
