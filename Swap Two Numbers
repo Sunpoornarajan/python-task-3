@@ -1,0 +1,16 @@
+aaa = int(input("Enter first number (aaa): "))
+bbb = int(input("Enter second number (bbb): "))
+aaa = aaa ^ bbb
+bbb = aaa ^ bbb
+aaa = aaa ^ bbb
+print("\nAfter swapping:")
+print("aaa =", aaa)
+print("bbb =", bbb)
+
+#OUTPUT
+Enter first number (aaa): 5
+Enter second number (bbb): 8
+
+After swapping:
+aaa = 8
+bbb = 5
