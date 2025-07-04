@@ -1,0 +1,7 @@
+nnn = int(input("Enter a decimal number: "))
+binary = bin(nnn)[2:]  
+print(f"Binary representation of {nnn} is {binary}")
+
+#OUTPUT
+Enter a decimal number: 25
+Binary representation of 25 is 11001
